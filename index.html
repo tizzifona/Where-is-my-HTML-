@@ -3,7 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Where is my HTML?</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section>
+        <form action="#" method="post">
+          <h1>Log in</h1>
+          <p>Don't have an account? <a href="#">sign Up</a></p>
+          <button type="button">
+            <img
+              src="./assets/images/Google-logo.png"
+              alt="Google icon"
+              width="30px"
+            />
+            Sign in with Google
+          </button>
+          <button type="button" aria-label="Sign in with Facebook">
+            <img
+              src="./assets/images/Facebook-logo.png"
+              alt="Facebook icon"
+              width="50px"
+            />
+          </button>
+          <p><span>or</span></p>
+          <label for="email"><b>Email</b></label>
+          <input type="text" name="email" placeholder="Enter Email" required />
+          <label for="password"><b>Password</b></label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter Password"
+            required
+          />
+          <button type="submit">Log In</button>
+          <p><a href="#">Forgot password?</a></p>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
